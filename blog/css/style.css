@@ -101,6 +101,17 @@ h1 {
     box-shadow: 5px 5px 4px -1px #888;
 }
 
+button {
+    display: inline-block;
+    font-family: ultra, Georgia, serif;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    color: #520606;
+    background-color: #a65537;
+    box-shadow: 5px 5px 4px -1px #888; 
+}
+
 /* GENERAL SETUP AND DEFULTS */
 
 * {
@@ -181,7 +192,6 @@ figure {
     padding: 0.5rem 0.5rem;
 }
 
-
 /* LINKS AND NAV*/
 
 a {
@@ -210,3 +220,8 @@ nav {
         color: #fff;
         background-color: #520606;
     }
+
+    .strikethrough {
+        text-decoration: line-through;
+        transform: rotate(6deg);
+        }
